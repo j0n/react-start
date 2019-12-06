@@ -1,0 +1,14 @@
+{
+  "presets": ["@babel/env", "@babel/preset-react"],
+  "plugins": [
+      [
+          "module-resolver",
+          {
+              "cwd": "babelrc",
+              "alias": {
+                  "Components": "./app/js/Components/",
+              }
+          }
+      ]
+  ]
+}
