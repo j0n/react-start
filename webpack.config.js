@@ -9,8 +9,8 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 // Constant with our paths
 const paths = {
   DIST: path.resolve(__dirname, 'dist'),
-  SRC: path.resolve(__dirname, 'app'), // source folder path -> ADDED IN THIS STEP
-  JS: path.resolve(__dirname, 'app/js'),
+  SRC: path.resolve(__dirname, 'src'),
+  JS: path.resolve(__dirname, 'src/js'),
 };
 
 // Webpack configuration
