@@ -6,7 +6,7 @@
           {
               "cwd": "babelrc",
               "alias": {
-                  "Components": "./app/js/Components/",
+                  "Components": "./src/js/Components/",
               }
           }
       ]
