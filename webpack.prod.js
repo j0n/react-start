@@ -6,7 +6,7 @@ const common = require('./webpack.config.js');
 module.exports = merge(common, {
   output: {
     path: '/Users/jonandersson/dev/hearsay.se/static',
-    filename: '[hash].app.bundle.js',
+    filename: 'app.bundle.js',
     publicPath: '/',
   },
   plugins: [
