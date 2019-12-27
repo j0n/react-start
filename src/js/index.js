@@ -1,11 +1,17 @@
 import "@babel/polyfill";
 import React, { Component } from 'react';
 import { render } from 'react-dom';
+import App from './app';
+import { StateProvider } from './store.js';
+import './index.css';
 
 export default class Index extends Component {
+
   render() {
     return (
-      <div>hej hej</div>
+      <StateProvider>
+        <App />
+      </StateProvider>
     );
   }
 }
