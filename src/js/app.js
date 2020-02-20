@@ -1,14 +1,13 @@
-import React, { Component, useContext } from 'react';
-import { render } from 'react-dom';
+import React, { useContext } from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 import { store } from './store.js';
 
-const { API_URL } = process.env;
+// const { API_URL } = process.env;
 
 export default function App() {
   const { mainState } = useContext(store);
-  const { content = '' } = mainState;
+  // const { content = '' } = mainState;
   return (
     <div>
       <Router>

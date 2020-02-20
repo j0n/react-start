@@ -41,10 +41,5 @@
     "eol-last": 2,
     "no-trailing-spaces": 2,
     "no-console": 0,
-  },
-  "settings": {
-    "import/resolver": {
-      "babel-module": {}
-    }
   }
 }
